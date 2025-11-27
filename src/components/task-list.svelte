@@ -18,7 +18,7 @@
 				<input checked={task.done} onchange={() => toggleDone(task)} type="checkbox" />
 				<span class:done={task.done}>{task.title}</span>
 			</label>
-			<button onclick={() => removeTask(task.id)} class="outline">Remove</button>
+			<button onclick={() => removeTask(task.id)} class="outline remove-button">Remove</button>
 		</article>
 	{/each}
 </section>
@@ -32,5 +32,10 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+	}
+
+	.remove-button {
+		padding: 0.3rem 1rem;
+		border-radius: 0.5rem;
 	}
 </style>

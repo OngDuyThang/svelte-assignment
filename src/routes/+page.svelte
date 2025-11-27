@@ -75,6 +75,7 @@
 	</p>
 	{#if tasks.length}
 		<div class="button-container">
+			<span>Filter:</span>
 			{@render filterButton('all')}
 			{@render filterButton('todo')}
 			{@render filterButton('done')}
@@ -91,6 +92,7 @@
 
 	.button-container {
 		display: flex;
+		align-items: center;
 		justify-content: end;
 		margin-bottom: 1rem;
 		gap: 0.5rem;
