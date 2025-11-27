@@ -2,7 +2,7 @@
 
 This is a simple web application built with Svelte that allows you to keep track of your tasks and stay organized.
 
-🔗 **Live Demo:** []()
+🔗 **Live Demo:** [https://svelte-assignment-seven.vercel.app/](https://svelte-assignment-seven.vercel.app/)
 
 ## 🚀 Project Structure
 
